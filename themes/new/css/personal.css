@@ -1,0 +1,27 @@
+
+#personal img
+{
+    transition: all 600ms linear;
+}
+#personal img:hover
+{
+    transform: scale(1.2);
+    transition: all 600ms linear;
+}
+#personal div
+{
+
+    background: url("elements/Blue-Water.png") no-repeat bottom;
+    background-size: 280px;
+}
+
+#personal h4
+{
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: Arial, Verdana, sans-serif;
+    color: #ffffff;
+
+    text-shadow: 0 0 4px #0654ff, 0 0 5px #0654ff, 0 0 6px #269dce, 0 0 7px #01006c;
+    line-height: 1.5;
+}

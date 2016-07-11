@@ -1,0 +1,23 @@
+#form .form .note.head
+{
+    margin-top: 25px;
+    padding: 5px;
+    display: block;
+    outline: dashed 3px #ff7752;
+    outline-offset: -5px;
+    box-shadow: 0 0 5px black;
+}
+.viewGuests
+{
+    padding: 15px 0 15px 0;
+    border-bottom: 2px dashed darkgray;
+}
+
+.viewGuests .row-fluid .text
+{
+    display: block;
+    padding: 10px 0 10px 0;
+    white-space: pre-wrap;
+
+
+}

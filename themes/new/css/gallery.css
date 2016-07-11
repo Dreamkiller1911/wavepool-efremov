@@ -1,0 +1,44 @@
+/*Dreamkiller*/
+
+.albumPreview
+{
+    display: block;
+    float: left;
+    padding: 5px 5px 0 5px ;
+    margin: 10px;
+    text-align: center;
+    white-space: normal;
+}
+.albumPreview img
+{
+    border: 3px solid white;
+    box-shadow: 0 0 3px black;
+    z-index: 50;
+    border-radius: 10px;
+}
+.albumPreview span
+{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 15px 0 10px 0 ;
+    font-size: 12pt;
+    color: white;
+    text-shadow: 0 0 3px black, 2px 2px 3px black, 0 0 15px black;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.oneImg
+{
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 200ms linear;
+}
+.oneImg:hover
+{
+    transform: scale(1.2);
+    transition: all 200ms linear;
+
+}

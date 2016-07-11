@@ -1,0 +1,5 @@
+requirements
+framework
+assets/*
+!assets/data/*
+!assets/document/*

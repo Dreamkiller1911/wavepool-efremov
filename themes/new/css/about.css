@@ -1,0 +1,95 @@
+.row-fluid.about .hImg, .row-fluid.about .hLImg, .row-fluid.about .hRImg
+{
+    padding: 0;
+}
+.row-fluid.about .hImg a, .row-fluid.about .hLImg a, .row-fluid.about .hRImg a
+{
+    display: inline-block;
+}
+.row-fluid.about .hImg
+{
+    text-align: center;
+}
+.row-fluid.about .hImg .myQuot
+{
+    font-family: 'Courier New' , Monospace;
+}
+.row-fluid.about .hImg .myQuot p
+{
+    display: block;
+    padding-right: 15px;
+    text-align: right;
+}
+.row-fluid.about .hImg .myQuot h5
+{
+    font-weight: 900;
+    font-size: 12pt;
+}
+
+.row-fluid.about .hLImg a:nth-of-type(1) img
+{
+    border: 3px solid white;
+    border-bottom: none;
+    border-radius: 25px 0 0 0 ;
+    box-shadow: -5px -3px 5px black;
+    -o-box-shadow: -5px -3px 5px black;
+    -webkit-box-shadow: -5px -3px 5px black;
+    -moz-box-shadow: -5px -3px 5px black;
+}
+.row-fluid.about .hLImg a:nth-of-type(2) img
+{
+    border: 3px solid white;
+    border-top: none;
+    border-radius: 0 0 25px 0 ;
+    box-shadow: -5px -1px 5px black;
+    -o-box-shadow: -5px -1px 5px black;
+    -webkit-box-shadow: -5px -1px 5px black;
+    -moz-box-shadow: -5px -1px 5px black;
+}
+
+.row-fluid.about .hRImg a:nth-of-type(1) img
+{
+    border: 3px solid white;
+    border-bottom: none;
+    border-radius: 0 25px 0 0 ;
+    box-shadow: 5px -3px 5px black;
+    -o-box-shadow: 5px -3px 5px black;
+    -webkit-box-shadow: 5px -3px 5px black;
+    -moz-box-shadow: 5px -3px 5px black;
+
+}
+.row-fluid.about .hRImg a:nth-of-type(2) img
+{
+    border: 3px solid white;
+    border-top: none;
+    border-radius: 0 0 0 25px ;
+    box-shadow: 5px -1px 5px black;
+    -o-box-shadow: 5px -1px 5px black;
+    -webkit-box-shadow: 5px -1px 5px black;
+    -moz-box-shadow: 5px -1px 5px black;
+
+}
+.row-fluid.about .hImg:nth-of-type(2) img
+{
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px black, 0 0 10px black;
+    -o-box-shadow: 0 0 10px black, 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black, 0 0 10px black;
+    -moz-box-shadow: 0 0 10px black, 0 0 10px black;
+
+}
+.row-fluid.about .text
+{
+    text-indent: 20px;
+}
+.row-fluid.about .text p
+{
+    margin: 0;
+    padding: 0;
+}
+.row-fluid.about .text img
+{
+    border: 3px solid whitesmoke;
+    box-shadow: 0 0 3px black;
+}

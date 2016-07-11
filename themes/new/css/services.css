@@ -1,0 +1,46 @@
+.serviceView
+{
+
+    color: white;
+    background: #008ecd;
+    border: 5px solid white;
+    text-shadow: 0 0 3px black;
+    box-shadow: 2px 2px 8px black, inset 2px 2px 8px black;
+}
+.serviceView table th
+{
+    border-bottom: 3px solid white;
+
+}
+
+.serviceView table th, #serviceView table td:first-child
+{
+    font-size: 14pt;
+    font-weight: 900;
+}
+
+.serviceView table td
+{
+    font-size: 12pt;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.serviceView table td:first-child span
+{
+    right: 10px;
+}
+.serviceView table tr:first-child:hover
+{
+    background: #008ecd;
+    transition: all 800ms linear;
+}
+.serviceView table tr:hover
+{
+    background: #00668c;
+    transition: all 800ms linear;
+}
+.serviceView table tr:hover td:first-child
+{
+    text-align: right;
+    transition: all 800ms linear;
+}
